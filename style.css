@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+
+.wrapper {
+    background-image: url("items/Background.png");
+    width: 100%;
+    height: 980px;
+}
+
+.wrapContent {
+    box-shadow: 0px 0px 90px rgba(231, 63, 85, 0.103);
+    border-radius: 22px;
+    overflow: hidden;
+    width: 1280px;
+    height: 720px;
+    max-width: 1280px;
+    max-height: 720px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.latestItems {
+    overflow: hidden;
+    width: 100%;
+    height: 120px;
+    background-color: #18191d;
+}
+
+.openCase {
+    position: relative;
+    height: 400px;
+    width: 100%;
+    background-color: #17181b;
+}
+
+.caseChoice {
+    height: 200px;
+    width: 100%;
+    background-color: #18191d;
+}
+
+.caseChoice img {
+    border-radius: 50%;
+    transition: 0.3s;
+    cursor: pointer;
+    height: 200px;
+    width: 200px;
+}
+
+.caseChoice img:hover {
+    box-shadow: 0px 0px 90px rgba(231, 63, 85, 0.103);
+    background-color: rgba(219, 28, 76, 0.041);
+}
+
+.openCase img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 240px;
+    width: 240px;
+}
+
+.openButton {
+    transition: 0.3s;
+    cursor: pointer;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 55px;
+    width: 180px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 18px;
+    background-color: rgb(228, 42, 67);
+}
+
+.openButton:hover {
+    background-color: transparent;
+    border: 2px solid rgb(228, 42, 67);
+}
+
+.lookCase {
+    width: 420px;
+    height: 820px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 100;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #16171bbb;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 3px solid rgba(231, 63, 85, 0.267);
+    box-sizing: content-box;
+}
+
+.lookCase img {
+    height: 200px;
+    width: 200px;
+}
+
+.close {
+    cursor: pointer;
+    color: white;
+    text-align: center;
+    line-height: 200px;
+    width: 200px;
+    font-size: 25px;
+}
+
+.newspaper {
+    display: none;
+}
+
+.activeWindow {
+    display: block;
+}
+
+.wallet {
+    border: 2px solid rgb(231, 63, 86);
+    border-radius: 15px;
+    width: 160px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    position: absolute;
+    left: 50%;
+    top: 36px;
+    transform: translateX(-50%);
+    color: white;
+}
+
+.winItem {
+    height: 460px;
+    width: 280px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 15;
+    background-image: url("Items/Bg.jpg");
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.winItem h3 {
+    padding-top: 35px;
+    font-size: 32px;
+    color: rgb(231, 63, 86);
+    text-align: center;
+}
+
+.sellButton {
+    transition: 0.3s;
+    cursor: pointer;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 55px;
+    width: 180px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 18px;
+    background-color: rgb(228, 42, 67);
+}
+
+.sellButton:hover {
+    background-color: transparent;
+    border: 2px solid rgb(228, 42, 67);
+}
+
+.winItemWrap {
+    display: none;
+}
+
+.activeWinItem {
+    display: block;
+}
+
+.winItemPhoto img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background-color: rgba(228, 42, 67, 0.164);
+    box-shadow: 0px 0px 95px rgba(228, 42, 67, 0.459);
+}
+
+.lookCase img:hover {
+    box-shadow: 0px 0px 90px rgba(231, 63, 85, 0.288);
+    background-color: rgba(219, 28, 76, 0.089);
+}
+
+.logo {
+    position: absolute;
+    z-index: 3;
+    left: 15%;
+    width: 230px;
+    height: 130px;
+}
+
+p {
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: rgb(44, 44, 44);
+}
+
+.latestItems img {
+    height: 120px;
+    width: 120px;
+}
+
+.latestItems h3 {
+    color: rgb(184, 14, 93);
+    position: absolute;
+    left: 50%;
+    top: 5px;
+    transform: translateX(-50%);
+}
+
+.latestItems img {
+    position: absolute;
+    left: 50%;
+    top: 52px;
+    width: 60px;
+    height: 60px;
+    transform: translateX(-50%);
+}
+
+.latestItems h4 {
+    color: rgb(184, 14, 93);
+    z-index: 2;
+    position: absolute;
+    top: 32px;
+    left: 50%;
+    transform: translateX(-50%);
+}
