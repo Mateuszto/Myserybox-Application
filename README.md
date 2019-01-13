@@ -5,6 +5,8 @@ In the application, you can choose a box to check its contents, open it and sell
 
 ** 13 January 2019 **
 
+### NO RESPONSIVE VERSION!
+
 ### Tech
 * Javascript
 * HTML 5
