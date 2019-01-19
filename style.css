@@ -217,13 +217,10 @@
     width: 230px;
     height: 130px;
 }
-
-p {
-    position: absolute;
-    bottom: 15px;
-    left: 50%;
-    transform: translateX(-50%);
-    color: rgb(44, 44, 44);
+.brand{
+	text-align:center;
+	background-color: #1a1c1c;
+    color: #5a5b5b;
 }
 
 .latestItems img {
