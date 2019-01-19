@@ -85,6 +85,7 @@ const openCaseFunction = () => {
 const sellButtonFunction = () => {
     //Sell amout + your balance
     firstAmout += sellAmout.textContent * 1;
+    document.querySelector('.amout').textContent = firstAmout;
     const winItemWindow = document.querySelector('.winItemWrap');
     winItemWindow.classList.remove('activeWinItem');
 }
