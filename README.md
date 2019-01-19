@@ -11,8 +11,9 @@ In the application, you can choose a box to check its contents, open it and sell
 * Javascript
 * HTML 5
 * CSS 
-* Photoshop
 * VisualStudioCode
+* Git
+* Photoshop
 
 ### Todos
 
