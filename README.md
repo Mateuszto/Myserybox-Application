@@ -16,7 +16,7 @@ In the application, you can choose a box to check its contents, open it and sell
 
 ### Todos
 
- - Debug wallet amount
+ - Debug wallet amount - Done
  - Add more cases
  - Maybe login system [To learn PHP]
 
