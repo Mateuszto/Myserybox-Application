@@ -3,7 +3,7 @@
 Mysterybox is a website for opening boxes in which we can find good and bad items. This game is gambling. I created the site as part of learning Javascript. It was my first project using this language, I was inspired by the [Myserybrand.net](https://mysterybrand.net/en) website
 In the application, you can choose a box to check its contents, open it and sell item.
 
-** 13 January 2019 **
+***13 January 2019***
 
 ### NO RESPONSIVE VERSION!
 
