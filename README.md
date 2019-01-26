@@ -20,6 +20,5 @@ In the application, you can choose a box to check its contents, open it and sell
  - Debug wallet amount - Done
  - Add more cases
  - Maybe login system [To learn PHP]
-
-<p align="center>
+ 
 ![](https://user-images.githubusercontent.com/38840598/51088800-94ac5080-1764-11e9-9edd-7f0843be3afd.png)
